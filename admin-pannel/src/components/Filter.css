@@ -1,0 +1,77 @@
+.filter-container 
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    /* margin-top: 4rem; */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+     margin: 0 2rem 0 2rem;
+    /* width: 80%; */
+    /* margin-left: 7.5rem; */
+    /* margin-right: 1.5rem;
+    margin-left: 8rem; */
+    /* margin: 4rem 0 4rem 7rem; */
+    /* width: 80%; */
+    padding: 1rem;
+    background-color: #fed4db;
+    /* background-color: rgb(129, 149, 150); */
+}
+
+.filter-list 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.filterData 
+{
+   margin: 4rem 0 4rem 0;
+   text-align: center;
+}
+
+.filter-container label 
+{
+    font-size: 1.2rem;
+    color:blueviolet;
+    font-weight: 600;
+}
+
+@media screen and (max-width:775px)
+{
+    .filterData
+    {
+        margin-top: -1rem;
+    }    
+
+    .filterData h2 
+    {
+        font-size: 1.9rem;
+    }
+
+    .filter-container label
+    {
+        font-size: 1.7rem;
+    }
+
+    .option-name 
+    {
+        font-size: 1.7rem;
+    }
+}
+
+/*---------------Filters--------------------*/
+.select-option 
+{
+    padding: 2px;
+    width: 50%;
+}
+
+.option-name 
+{
+    font-size: 1rem;
+}

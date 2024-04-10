@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Nav-Container 
+{
+    /* background-color: aquamarine; */
+    height: 110vh;
+    border: 2px solid black;
+    /* margin-top: 4rem;
+    margin-left: 1rem; */
+    background-color: #fed4db;
+}
+
+.Nav-imag img 
+{
+    width: 70%;
+    height: 125px;
+    border-radius: 50%;
+    margin-left: 1.8rem;
+}
+
+.Nav-list 
+{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 1rem;
+}
+
+.Nav-list h2 
+{
+    text-align: center;
+}
+
+
+
+.Nav-list li 
+{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    list-style-type: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 1.5rem;
+}
+
+.Nav-icon 
+{
+    margin-top: 3px;
+}
+
+.Nav-list li a
+{
+    text-decoration: none;
+}
+
+.Nav-list h2 
+{
+    font-size: 2rem;
+}
+
+.Nav-list-botoom 
+{
+    display: flex;
+    gap: 2rem;
+    text-align: center;
+    align-items: center;
+}
+
+
+/*-----------------Navbar Responsive-----------------*/
+
+@media screen and (max-width: 775px)
+{
+    .Nav-Container 
+    {
+        height: 20vh;
+        margin: 2rem;
+    }
+
+    .Nav-list h2 
+    {
+        font-size: 2.2rem;
+    }
+
+    .list-data 
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .Nav-list li 
+    {
+        font-size: 1.9rem;
+    } 
+}
+
+@media screen and (max-width:550px)
+{
+    .Nav-Container
+    {
+        border: none;
+    }    
+    .Nav-list 
+    {
+        border: 2px solid black;
+        margin-bottom: 2rem;
+    }
+}
+
+
+
+/*---------------Login Signup--------------*/
+
+.Login-Container
+{
+    margin:2rem 2rem;
+}
+
+.log-cont 
+{
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    gap: -2rem;
+    margin-top: 5rem;
+    text-align: center;
+    align-items: center;
+}
+
+.Login-Container .lo-input 
+{
+    background-color: aqua;
+    height: 72vh;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.Login-Container .input-cont 
+{
+    margin-top: 4rem
+}
+
+.Login-Container input
+{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   /* text-align: center; */
+   margin-left: 11rem;
+   margin-top: 2rem;
+   padding: 0.8rem 1rem 0.8rem 1rem;
+   width: 50%;
+   font-size: 1rem;
+}
+
+.input-cont h2 
+{
+    font-size: 2rem;
+}
+
+.Login-Container img 
+{
+    width: 80%;
+    height: 100%;
+}
+
+.Login-Container button 
+{
+    margin: 1rem 0 1rem 0;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+
+/*-----------------------------HomeDashboard--------------------------*/
+
+.Dash-Components
+{
+    display: grid;
+    grid-template-columns: 0.1fr 1fr;
+    gap: 1rem;
+    /* margin-bottom: 2rem; */
+}
+
+/* .Dash-List 
+{
+    border: 2px solid black;
+    
+} */
+
+/*---------------------reponsive--------------------*/
+
+@media screen and (max-width:775px)
+{
+   .Dash-Components 
+   {
+     display: flex;
+     flex-direction: column;
+   }    
+}
